@@ -22,30 +22,32 @@ header{
 
 nav {
     background: #021953;
-    color: white;
+    color: #FDFFFC;
 }
 
 nav a{
     display: inline-flex;
     padding: 20px;
     text-decoration: none;
+    color: #FDFFFC;
     
 }
 
 nav a:visited {
-    color: white;
+    color: #FDFFFC;
 }
 
 .name h1 {
     margin: 0 auto;
     padding-top: 40px;
-    font-size: 10vh;
+    font-size: 9vh;
     color:  #FDFFFC;
 }
 
 .name h2 {
     margin: 0 auto;
     padding-bottom: 20px;
+    font-size: 6vh;
 }
 
 .name p {
@@ -56,12 +58,12 @@ nav a:visited {
 
 #about p {
     width: 65%;
-    margin: 5vh auto;
+    margin: 3vh auto;
 }
 
 ul {
     width: 65%;
-    margin: 0 auto;
+    margin: 3vh auto;
     list-style-type: none;
     padding: 0;
 }
@@ -89,7 +91,7 @@ li {
 
 footer {
     padding: 10px 0;
-    background: #011627;
+    background: #021953;
     color: #FDFFFC;
 }
 
@@ -98,7 +100,7 @@ footer {
 }
 
 .darkblue-bar {
-    height: 3vh;
+
     background-color :#021953;
 }
 
@@ -108,7 +110,7 @@ footer {
 }
 
 .white-bar {
-    background: white;
+    background: #FDFFFC;
     width: 15vw;
     height: 3vh;
     margin: 3vh auto;
@@ -145,4 +147,33 @@ footer {
         width: 350px;
         height: 200px;
     }
+}
+
+.intro-div{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.intro {
+    text-align: left;
+    font-size: 4vh;
+    margin-top: 9vh;
+    margin-bottom:3vh;
+}
+
+#blue-bar-2 {
+    height: 1vh;
+    border-radius: 5px;
+
+}
+
+
+#orange-bar-2 {
+    height: 1vh;
+    border-radius: 5px;
+}
+
+#darkblue-bar-2 {
+    height: 1vh;
+    border-radius: 5px;
 }
