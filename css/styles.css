@@ -1,0 +1,148 @@
+html {
+    height: 100%;
+}
+
+
+body {
+    background: #FDFFFC;
+    color: #011627;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    font-family: 'Spinnaker', sans-serif;
+
+}
+
+header{
+    height: 30vh;
+    background-image: url(https://d19d5sz0wkl0lu.cloudfront.net/dims4/default/fb66199/2147483647/resize/800x%3E/quality/90/?url=https%3A%2F%2Fatd-brightspot.s3.amazonaws.com%2F48%2F85%2F8f189edc45ebb77607709c3c31d1%2Fthinkstockphotos-629285904.jpg);
+    background-size: cover;
+    background-position-y: center;
+}
+
+nav {
+    background: #021953;
+    color: white;
+}
+
+nav a{
+    display: inline-flex;
+    padding: 20px;
+    text-decoration: none;
+    
+}
+
+nav a:visited {
+    color: white;
+}
+
+.name h1 {
+    margin: 0 auto;
+    padding-top: 40px;
+    font-size: 10vh;
+    color:  #FDFFFC;
+}
+
+.name h2 {
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.name p {
+    font-size: 80px;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+#about p {
+    width: 65%;
+    margin: 5vh auto;
+}
+
+ul {
+    width: 65%;
+    margin: 0 auto;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+
+#projects img {
+    border-radius: 5px;
+    width: 650px;
+    height: 400px; 
+}
+
+#contact img {
+    width: 50px;
+    height: 50px;
+}
+
+.project {
+    display: inline-block;
+}
+
+footer {
+    padding: 10px 0;
+    background: #011627;
+    color: #FDFFFC;
+}
+
+.github {
+    background: orange;
+}
+
+.darkblue-bar {
+    height: 3vh;
+    background-color :#021953;
+}
+
+.blue-bar {
+    height: 4vh;
+    background-color: #00B5C9;
+}
+
+.white-bar {
+    background: white;
+    width: 15vw;
+    height: 3vh;
+    margin: 3vh auto;
+    border-radius: 5px;
+}
+
+.orange-bar {
+    background-color: #E55812;
+}
+
+.name {
+    margin-top: 0px;
+    color: #FDFFFC;
+}
+
+.zoom-tilt {
+    -webkit-transition:all 0.3s ease-out;
+    -moz-transition:all 0.3s ease-out;
+    -ms-transition:all 0.3s ease-out;
+    -o-transition:all 0.3s ease-out;
+    transition:all 0.3s ease-out;
+  }
+  
+.zoom-tilt:hover {
+    -webkit-transform:rotate(15deg) scale(1.3);
+    -moz-transform:rotate(15deg) scale(1.3);
+    -ms-transform:rotate(15deg) scale(1.3);
+    -o-transform:rotate(15deg) scale(1.3);
+    transform:rotate(15deg) scale(1.3);
+}
+
+@media only screen and (max-width: 600px) {
+    #projects img{
+        width: 350px;
+        height: 200px;
+    }
+}
